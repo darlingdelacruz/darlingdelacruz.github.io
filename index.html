@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Porfolio</title>
+</head>
+<body>
+    <!-- Secciòn INICIO -->
+    <span class="sombra">
+        <section id="inicio" class="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="logo">
+                        <i class="fa-brands fa-react fa-bounce"></i>
+                        <h1>Darling De La Cruz</h1>
+                    </div>
+                    <nav id="nav" class=""">
+                        <a href="#inicio">Inicio</a>
+                        <a href="#habilidades">Habilidades</a>
+                        <a href="#trabajos">Proyectos</a>
+                 
+                    </nav>
+    
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+    
+                    <div class="redes">
+                        <a href="https://github.com/darlingdelacruz?tab=repositories" target="_self" > <i class="fa-brands fa-github fa-bounce"></i> </a>
+                        <a href="https://www.linkedin.com/in/darling-de-la-cruz-848814206/" target="_self" ><i class="fa-brands fa-linkedin fa-bounce"></i></a>
+                    </div>
+                </header>
+    
+                <div class="fila">
+                    <div class="col">
+                        <h2>Desarrollador Fullstack</h2>
+                        <p>I'm a software developer that is aiming to become a FullStack Developer by everyday trying to improve my skills and learnings in Web and desktop development.</p>
+                        <button class="btn btn-1">Descargar CV</button>
+                    </div>
+                    <div class="col">
+                        <div class="contenedor-img">
+                            <img src="img/foto-inicio.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </span>
+
+    <!-- sección SERVICIOS -->
+    <section id="servicios" class="servicios">
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <i class="fa-brands fa-react fa-bounce"></i>
+                            <i class="fa-brands fa-python fa-bounce"></i>
+                        </div>
+                    </div>
+                    <h3>Desarrollador jr</h3>
+                    <p>Responsable de crear portales web y dar mantenimiento a estos, usando: JavaScript (Reactjs) and Python.</p>
+                    <p>Marzo, 2022 - Presente</p>
+                    <a href="https://bsc.com.do/home">Banco Santa Cruz</a>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo">
+                            <i class="fa-brands fa-battle-net fa-bounce"></i>
+                        </div>
+                    </div>
+                    <h3>Desarrollador jr</h3>
+                    <p>Responsable de dar mantenimiento a las aplicaciones desarrolladas en Reactjs and C#.</p>
+                    <p>Enero, 2019 - Marzo 2022</p>
+                    <a href="https://www.superate.gob.do/">Programa Supérate</a>
+                    
+                </div>
+            </div>
+         
+            <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo">
+                            <i class="fa-regular fa-computer-classic fa-bounce"></i>
+                        </div>
+                    </div>
+                    <h3>Desarrollador freelance</h3>
+                    <p>He creado aplicaciones de escritorio elaboradas en: C#; Las cuales estan siendo migradas a la web para tener mejor experiencia de usuario y performance.</p>
+                    <p>Diciembre, 2018 - Presente</p>
+            
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección habilidades -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenedor-habi">
+            <h2 class="correcciones">Habilidades</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="95">
+                                95%
+                            </div>
+                            <h2>HTML & CSS</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="90">
+                                90%
+                            </div>
+                            <h2>JavaScript</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="85">
+                                85%
+                            </div>
+                            <h2>ReactJs</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="70">
+                                70%
+                            </div>
+                            <h2>MYSQL</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="70">
+                                70%
+                            </div>
+                            <h2>Python</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="50">
+                                50%
+                            </div>
+                            <h2>C#</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección trabajos -->
+    <section class="trabajos" id="trabajos">
+        <h2 class="correcciones">Proyectos Recientes</h2>
+
+        <div class="galeria">
+            <div class="item disenio">
+                <img src="img/prestamos.png" alt="">
+                <div class="info">
+                    <h3>Sistema Financiero</h3>
+                    <span>C#</span>
+                    <a target="_self" href="https://github.com/darlingdelacruz/SISTEMAFINANCIERO">Ver Proyecto</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/trabajo2.png" alt="">
+                <div class="info">
+                    <h3>Portal de Cumplimiento(Procesos automatizados)</h3>
+                    <span>Html</span><span>Css</span><span>ReactJs</span><span>Python</span>
+                    <a href="https://github.com/darlingdelacruz/portalcumplimiento/tree/main" target="_self" >Ver Proyecto</a>
+                </div>
+            </div>
+            <div class="item animaciones">
+                <img src="img/trabajo3.png" alt="">
+                <div class="info">
+                    <h3>Directorio de Proyectos</h3>
+                    <span>Html</span><span>Css</span><span>ReactJs</span>
+                    <a href="https://github.com/darlingdelacruz/proyectovite" target="_self">Ver Proyecto</a>
+                </div>
+            </div>
+  
+        </div>
+    </section>
+
+    <footer>
+        <p>Creado by Darling De la Cruz - 2023</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
